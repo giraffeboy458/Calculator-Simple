@@ -3,7 +3,7 @@ import math
 import essential_modules
 essential_modules.confirmation()
 
-print('''Welcome to the Calculator Simple program. 
+print('''Welcome to the Calculator: Simple program. 
       Operations:
       Addition: "add" or "+"
       Subtraction: "subt" or "-"
@@ -14,7 +14,7 @@ print('''Welcome to the Calculator Simple program.
       Square Root: "sqrt" or "√"
       Factorial: "fact" or "!"(multiplies every natural number up until the number you input('''
       )
-#Starts the infinite LookupError
+#Starts the infinite loop
 while True:
     #Ask for continuing
     prompt = input('Do you wish to continue? "yes" or "no" ').lower()
