@@ -1,0 +1,2 @@
+def confirmation():
+  print('Owned by Nihaal Puvvada. Do not distribute as your own without this message. You may add your own modifications, but state them after this message. DO NOT REMOVE THIS STATEMENT')
