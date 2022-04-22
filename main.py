@@ -12,12 +12,12 @@ print('''Welcome to the Calculator: Simple program.
       Quotient & Remainder Divison: "QR" or "//"
       Exponent: "exp" or "^" (please enter only integers, or you will get an inaccurate result.)
       Square Root: "sqrt" or "√"
-      Factorial: "fact" or "!"(multiplies every natural number up until the number you input('''
+      Factorial: "fact" or "!"(multiplies every natural number up until the number you input) If you didn't know this, you are actually a donut.'''
       )
 #Starts the infinite loop
 while True:
     #Ask for continuing
-    prompt = input('Do you wish to continue? "yes" or "no" ').lower()
+    prompt = input('Do you wish to continue? "yes" or "no" If you choose no, what is wrong with you').lower()
     #Start the calculator if the answer is yes
     if prompt == 'yes':
         try:
@@ -61,4 +61,4 @@ while True:
         )
         break
     else:
-        print('Please enter a valid prompt, like yes or no')
+        print('Please enter a valid prompt, like yes or no. Just get a life, stop trying to be quirky')
