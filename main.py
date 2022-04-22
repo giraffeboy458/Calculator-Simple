@@ -40,24 +40,24 @@ while True:
                 print(int(num1)**int(num2))
             elif oper == 'sqrt' or oper == '√':
                 print(math.sqrt(num1))
-                print('Number 2 is not required')
+                print('Number 2 is not required. If you were smart, you would know that')
             elif oper == 'fact' or oper == '!':
                 print(math.factorial(num1))
-                print('Number 2 is not required')
+                print('Number 2 is not required. Honestly, are you that dumb?')
             else:
-                print('Name a valid operation')
+                print('I will send you back to year 2 if you are being dumb.')
                 continue
         except ZeroDivisionError:
             #Deals with dividing by zero
-            print("Sorry, you can't divide by zero")
+            print("Stop trying to get a zero divison error. WHat is wrong with you? You fool. I have already thought about this.")
             continue
         except ValueError:
             #Deals with wrong datatype
-            print('Please enter a valid integer or decimal.')
+            print('Man, just enter a simple number. Is it that hard to follow instructions? I am 4 parallel universes ahead to your schemes.')
             continue
     elif prompt == 'no':
         print(
-            "Thank you for using the Calculator Simple. Run again to restart the calculator. G'day!"
+            "K bye, get snapped by Thanos or whatever, didn't ask + don't care + ratio"
         )
         break
     else:

@@ -1,2 +1,2 @@
 def confirmation():
-  print('Owned by Nihaal Puvvada. Do not distribute as your own without this message. You may add your own modifications, but state them after this message. DO NOT REMOVE THIS STATEMENT')
+  print('This is my calculator, not yours, mkay. Stop trying to steal my calculator, and instead, get your own college degree and make it of your design.')
