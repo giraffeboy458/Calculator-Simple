@@ -12,7 +12,7 @@ print('''Welcome to the Calculator: Simple program.
       Quotient & Remainder Divison: "QR" or "//"
       Exponent: "exp" or "^" (please enter only integers, or you will get an inaccurate result.)
       Square Root: "sqrt" or "√"
-      Factorial: "fact" or "!"(multiplies every natural number up until the number you input('''
+      Factorial: "fact" or "!"(multiplies every natural number up until the number you input)'''
       )
 #Starts the infinite loop
 while True:
