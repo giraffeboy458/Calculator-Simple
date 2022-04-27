@@ -20,33 +20,36 @@ while True:
     prompt = input('Do you wish to continue? "yes" or "no" ').lower()
     #Start the calculator if the answer is yes
     if prompt == 'yes':
+      mode = input('Which calculator do you desire? "s" for simple, "t" for trigonometry.')
+      if mode == s:
         try:
-            num1 = float(input('First number: '))
-            oper = input('Operation: ')
+          num1 = float(input('Number: '))
+          oper = input('Operation: ')
+          if oper == 'sqrt' or oper == '√' or oper == 'fact' or oper == '!':
+            pass
+          else:
             num2 = float(input('Second number: '))
-            #Does a certain job depending on the operation
-            if oper == 'add' or oper == '+':
-                print(num1 + num2)
-            elif oper == 'sub' or oper == '-':
-                print(num1 - num2)
-            elif oper == 'mult' or oper == '*':
-                print(num1 * num2)
-            elif oper == 'div' or oper == '/':
-                print(num1 / num2)
-            elif oper == 'QR' or oper == '//':
-                print(num1 // num2)
-                print(num1 % num2)
-            elif oper == 'exp' or oper == '^':
-                print(int(num1)**int(num2))
-            elif oper == 'sqrt' or oper == '√':
-                print(math.sqrt(num1))
-                print('Number 2 is not required')
-            elif oper == 'fact' or oper == '!':
-                print(math.factorial(num1))
-                print('Number 2 is not required')
-            else:
-                print('Name a valid operation')
-                continue
+          #Does a certain job depending on the operation
+          if oper == 'add' or oper == '+':
+              print(num1 + num2)
+          elif oper == 'sub' or oper == '-':
+              print(num1 - num2)
+          elif oper == 'mult' or oper == '*':
+              print(num1 * num2)
+          elif oper == 'div' or oper == '/':
+              print(num1 / num2)
+          elif oper == 'QR' or oper == '//':
+              print(num1 // num2)
+              print(num1 % num2)
+          elif oper == 'exp' or oper == '^':
+              print(int(num1)**int(num2))
+          elif oper == 'sqrt' or oper == '√':
+              print(math.sqrt(num1))
+          elif oper == 'fact' or oper == '!':
+              print(math.factorial(num1))
+          else:
+              print('Name a valid operation')
+              continue
         except ZeroDivisionError:
             #Deals with dividing by zero
             print("Sorry, you can't divide by zero")
